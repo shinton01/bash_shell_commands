@@ -1,8 +1,8 @@
 ## Create user
 
-  adduser <name>
+  adduser name
 
 ## Switch user
 
-  su - <username>
+  su - username
   
