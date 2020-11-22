@@ -1,3 +1,3 @@
 # linux_commands
 
-Various Bash and application commands. 
+Various Bash shell and application commands. 
