@@ -7,11 +7,16 @@
 
 	ls -a
 	
+	 .               .bashrc     .local     .var        Pictures    logfile.txt
+	 ..              .cache      .mozilla   Desktop     Public
+	 .bash_history   .config     .pki       Documents   Templates
+	 .bash_logout    .esd_auth   .ssh       Downloads  "VM's"
+	 .bash_profile   .gnome      .themes    Music       Videos
+
+	
 ## Detailed list of files and directories
 
 	ls -l
-	
-Example long form list:
 
 	total 80
 
@@ -38,8 +43,6 @@ Can combine flags
 ## Show recursively
 
 	ls -R
-	
-Example of recursive display:
 
 	.:
 	 Desktop     Downloads   Pictures   Templates   Videos
