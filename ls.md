@@ -2,11 +2,13 @@
 
 	ls
 	ls /home/shawn
+	Desktop     Downloads   Pictures   Templates   Videos
+ 	Documents   Music       Public    "VM's"       logfile.txt
+
 	
 ## List hidden files
 
 	ls -a
-	
 	 .               .bashrc     .local     .var        Pictures    logfile.txt
 	 ..              .cache      .mozilla   Desktop     Public
 	 .bash_history   .config     .pki       Documents   Templates
@@ -43,7 +45,6 @@ Can combine flags
 ## Show recursively
 
 	ls -R
-
 	.:
 	 Desktop     Downloads   Pictures   Templates   Videos
 	 Documents   Music       Public    "VM's"       logfile.txt
@@ -77,8 +78,32 @@ Can combine flags
 	
 ## Show reverse order
 
-	ls -r
+	ls -lr
+	total 40
+	-rw-rw-r--. 1 shawn shawn  204 Nov 16 07:07  logfile.txt
+	drwxr-xr-x. 2 shawn shawn 4096 Oct 16 10:40  Videos
+	drwxr-xr-x. 2 shawn shawn 4096 Nov 11 06:54 "VM's"
+	drwxr-xr-x. 2 shawn shawn 4096 Oct 16 10:40  Templates
+	drwxr-xr-x. 2 shawn shawn 4096 Oct 16 10:40  Public
+	drwxr-xr-x. 2 shawn shawn 4096 Oct 16 10:40  Pictures
+	drwxr-xr-x. 2 shawn shawn 4096 Oct 16 10:40  Music
+	drwxr-xr-x. 2 shawn shawn 4096 Nov 14 06:41  Downloads
+	drwxr-xr-x. 3 shawn shawn 4096 Nov 19 06:47  Documents
+	drwxr-xr-x. 2 shawn shawn 4096 Oct 16 10:40  Desktop
+
 	
 ## Show by time (newest first)
 
-	ls -t
+	ls -lt
+	total 40
+	drwxr-xr-x. 3 shawn shawn 4096 Nov 19 06:47  Documents
+	-rw-rw-r--. 1 shawn shawn  204 Nov 16 07:07  logfile.txt
+	drwxr-xr-x. 2 shawn shawn 4096 Nov 14 06:41  Downloads
+	drwxr-xr-x. 2 shawn shawn 4096 Nov 11 06:54 "VM's"
+	drwxr-xr-x. 2 shawn shawn 4096 Oct 16 10:40  Music
+	drwxr-xr-x. 2 shawn shawn 4096 Oct 16 10:40  Pictures
+	drwxr-xr-x. 2 shawn shawn 4096 Oct 16 10:40  Videos
+	drwxr-xr-x. 2 shawn shawn 4096 Oct 16 10:40  Desktop
+	drwxr-xr-x. 2 shawn shawn 4096 Oct 16 10:40  Public
+	drwxr-xr-x. 2 shawn shawn 4096 Oct 16 10:40  Templates
+
