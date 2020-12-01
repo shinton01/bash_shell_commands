@@ -8,7 +8,7 @@
 	
 ## List hidden files
 
-	ls -a
+	 ls -a
 	 .               .bashrc     .local     .var        Pictures    logfile.txt
 	 ..              .cache      .mozilla   Desktop     Public
 	 .bash_history   .config     .pki       Documents   Templates
